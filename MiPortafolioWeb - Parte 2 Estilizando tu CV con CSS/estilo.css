@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 300px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #505050;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 40px 0 10px 0;
+}
+
+.header img {
+    border: solid 10px grey;
+    transform: translateY(20px);
+    width: 250px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+main {
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.seccion {
+    margin: auto;
+    height: 420px;
+    width: 90%;
+    box-shadow: 1px 1px 10px #555;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.icons {
+    padding: 20px 0;
+    color: #a1a1a1;
+    font-size: 1.5rem;
+}
+
+.icons i {
+    margin: 0 5px;
+}
+
+.seccion article {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btns button{
+    padding: 10px 20px;
+    background-color: #09bfcc;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #555;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skills h3 {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.experience {
+    margin-left: 45px;
+}
+
+.experience h2 {
+    text-align: center;
+    color: #575656;
+    padding: 20px 0;
+}
+
+.container-experience {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.elements {
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 7px #555;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.elements h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #424242;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0px 0;
+    -moz-border-radius: 20px 20px 0px 0;
+    -ms-border-radius: 20px 20px 0px 0;
+    -o-border-radius: 20px 20px 0px 0;
+}
+
+.extra-information {
+    padding: 20px
+}
+
+.extra-information p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.extra-information ol {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.mis-proyectos {
+    margin-left: 45px;
+    padding: 20px;
+}
+
+body {
+    background-color: #f1f1f1;
+}
